@@ -1,0 +1,319 @@
+All packages are installed.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 56-57: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: '\x1b[1m\x1b[36mWebsite and Documentation Site \U0001f4f0\U0001f4d6\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 25: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: '\x1b[1m\x1b[36m\U0001f680 v0.3.0 Release \U0001f680\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50c' in position 36: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: '\x1b[36mPlugin support \U0001f50c\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f40b' in position 53: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: '\x1b[36mChanges to Docker configuration \U0001f40b\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 25-26: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: '\x1b[1m\x1b[36m\u26a0\ufe0f Command `send_tweet` is DEPRECATED, and will be removed in v0.4.0 \u26a0\ufe0f\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 214, in emit
+    print(msg)
+  File "C:\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50c' in position 96: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python\Python311\Lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Python\Python311\Lib\site-packages\click\decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\cli.py", line 90, in main
+    run_auto_gpt(
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\main.py", line 68, in run_auto_gpt
+    logger.info(motd_line, "NEWS:", Fore.GREEN)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 120, in info
+    self._log(title, title_color, message, logging.INFO)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 143, in _log
+    self.logger.log(
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1559, in log
+    self._log(level, msg, args, **kwargs)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1634, in _log
+    self.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python311\Lib\logging\__init__.py", line 978, in handle
+    self.emit(record)
+  File "C:\Users\marcelos\source\repos\Auto-GPT\autogpt\logs.py", line 216, in emit
+    self.handleError(record)
+Message: 'Twitter functionality (and more) is now covered by plugins, see [Plugin support \U0001f50c]\x1b[0m'
+Arguments: ()
+[32mDebug Mode: [0m ENABLED
+[32mNEWS: [0m [33mWelcome to Auto-GPT![0m
+[32mNEWS: [0m Below you'll find the latest Auto-GPT News and updates regarding features![0m
+[32mNEWS: [0m If you don't wish to see this message, you can run Auto-GPT with the [1m--skip-news[22m flag.[0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m Check out [1mhttps://agpt.co[22m, the official news & updates site for Auto-GPT![0m
+[32mNEWS: [0m The documentation also has a place here, at [1mhttps://docs.agpt.co[22m[0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m Over a week and 275 pull requests have passed since v0.2.2, and we are happy to announce[0m
+[32mNEWS: [0m the release of v0.3.0! [1mFrom now on, we will be focusing on major improvements[22m rather[0m
+[32mNEWS: [0m than bugfixes, as we feel stability has reached a reasonable level. Most remaining[0m
+[32mNEWS: [0m issues relate to limitations in prompt generation and the memory system, which will be[0m
+[32mNEWS: [0m the focus of our efforts for the next release.[0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m Highlights and notable changes in this release:[0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m Auto-GPT now has support for plugins! With plugins, you can extend Auto-GPT's abilities,[0m
+[32mNEWS: [0m adding support for third-party services and more.[0m
+[32mNEWS: [0m See https://github.com/Significant-Gravitas/Auto-GPT-Plugins for instructions and available plugins.[0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m The workdir has been changed from [1m/home/appuser[22m to [1m/app[22m.[0m
+[32mNEWS: [0m Be sure to update any volume mounts accordingly![0m
+[32mNEWS: [0m [0m
+[32mNEWS: [0m [0m
+[31mWARNING: [0m You are running on `master` branch - this is not a supported branch.
+ [0m Allowlisted Plugins: []
+ [0m Denylisted Plugins: []
+ [0m The following command categories are disabled: []
+ [0m The following command categories are enabled: ['autogpt.commands.analyze_code', 'autogpt.commands.audio_text', 'autogpt.commands.execute_code', 'autogpt.commands.file_operations', 'autogpt.commands.git_operations', 'autogpt.commands.google_search', 'autogpt.commands.image_gen', 'autogpt.commands.improve_code', 'autogpt.commands.twitter', 'autogpt.commands.web_selenium', 'autogpt.commands.write_tests', 'autogpt.app', 'autogpt.commands.task_statuses']
+[32mWelcome back! [0m Would you like me to return to being marcelo-ai?
+ [0m Asking user via keyboard...
+Continue with the last settings?
+Name:  marcelo-ai
+Role:  an AI to help me with the stock market
+Goals: ['find the best investments for the current market conditions', 'keep it diversified', 'keep it simple', 'Come up with 3 stock picks that are good for the next 3 months']
+API Budget: $10.0

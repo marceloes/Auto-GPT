@@ -43,6 +43,7 @@ class ApiManager(metaclass=Singleton):
         if temperature is None:
             temperature = cfg.temperature
         if deployment_id is not None:
+            logger.debug(f"----------------API CALL------------\nDeployment ID: {deployment_id}\nmodel: {model}\nmessages: {messages}\ntemperature: {temperature}\nmax_tokens: {max_tokens}\n----------------END API CALL------------\n")
             response = openai.ChatCompletion.create(
                 deployment_id=deployment_id,
                 model=model,

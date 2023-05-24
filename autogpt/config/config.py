@@ -84,6 +84,9 @@ class Config(metaclass=Singleton):
         self.google_api_key = os.getenv("GOOGLE_API_KEY")
         self.custom_search_engine_id = os.getenv("CUSTOM_SEARCH_ENGINE_ID")
 
+        self.bing_api_key = os.getenv("BING_API_KEY")
+        self.bing_api_endpoint = os.getenv("BING_API_ENDPOINT")
+
         self.pinecone_api_key = os.getenv("PINECONE_API_KEY")
         self.pinecone_region = os.getenv("PINECONE_ENV")
 

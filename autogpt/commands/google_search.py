@@ -8,8 +8,9 @@ from duckduckgo_search import ddg
 from autogpt.commands.command import command
 from autogpt.config import Config
 
-CFG = Config()
+import requests
 
+CFG = Config()
 
 @command("google", "Google Search", '"query": "<query>"', not CFG.google_api_key)
 def google_search(query: str, num_results: int = 8) -> str:
